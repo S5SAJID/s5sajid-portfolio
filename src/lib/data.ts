@@ -1,4 +1,4 @@
-import { CpuSetting, Designtools, Icon, Note } from "iconsax-react"
+import { Card, CpuSetting, Designtools, Home, Icon, Link, Message2, Note, Xd } from "iconsax-react"
 
 export type Project = {
     title: string,
@@ -89,3 +89,34 @@ export const projects: Project[] = [
         ]
     },
 ]
+
+
+const DATA = {
+    navbar: [
+      { href: "#", icon: Home, label: "Home" },
+    ],
+    contact: {
+      social: {
+        GitHub: {
+          name: "GitHub",
+          url: "#",
+          icon: Card,
+        },
+        LinkedIn: {
+          name: "LinkedIn",
+          url: "#",
+          icon:  Link,
+        },
+        X: {
+          name: "X",
+          url: "#",
+          icon: Xd,
+        },
+        email: {
+          name: "Send Email",
+          url: "#",
+          icon: Message2,
+        },
+      },
+    },
+  };

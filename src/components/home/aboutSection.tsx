@@ -14,11 +14,11 @@ export default function AboutSection() {
             </p>
 
             <Reveal>
-                <div className="cards mt-16 grid md:grid-cols-2 lg:grid-cols-3 gap-4 md:grid-rows-2">
-                    <Card className="row-span-2 border border-foreground/10 bg-card/10 backdrop-blur-lg relative p-6">
+                <div className="cards mt-16 grid md:grid-cols-4 gap-4 md:grid-rows-4">
+                    <Card className="row-span-2 col-span-2 border border-foreground/10 bg-card/10 backdrop-blur-lg relative p-6">
                         <img src="/classic.jpg" alt="My picture" className="w-full h-full rounded-lg object-cover" />
                     </Card>
-                    <Card className="border border-foreground/10 bg-card/10 backdrop-blur-lg relative row-span-2 rounded-lg">
+                    <Card className="border border-foreground/10 bg-card/10 col-span-2 backdrop-blur-lg relative rounded-lg">
                         <CardHeader>
                             <CardTitle>
                                 Web and Apps Developer
